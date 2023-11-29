@@ -3,8 +3,7 @@ const User = require("../user/user.model");
 const moment = require("moment/moment");
 const router = express.Router();
 
-const stripeSecretKey =
-  "sk_test_51L58kTBXO2d9Fh4QkcyLQhsVsbtW6QwnB413baMEwOnaBdZsnvoruspf1CCuwZWtEggbtuupQ1ht6B1EZPwS3ydG00zfPKJxI1";
+const stripeSecretKey = "";
 
 const stripe = require("stripe")(stripeSecretKey);
 
